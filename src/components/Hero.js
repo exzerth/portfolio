@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="hero">
       <div className="hero-container">
         <div className="intro-box">
-          <h2>WEB DEVELOPER</h2>
+          <h2>FRONTEND DEVELOPER</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras turpis
             justo, consequat a arcu et, lobortis tempor ex. Sed sed scelerisque
