@@ -17,7 +17,7 @@ const Works = () => {
           <div className="layer-one-text">
             <h4>Sunshine Website</h4>
             <p>
-              Lorem ipsum dolor sit sit amet, consectetur adipiscing elit. Cras
+              Lorem ipsum dolor set amet, consectetur adipiscing elit. Cras
               turpis justo, consequat a arcu et, lobortis tempor ex. Sed sed
               scelerisque orci. Cras turpis justo, consequat a arcu et, lobortis
               tempor ex.
