@@ -75,6 +75,7 @@ body {
     font-size: 1.123rem;
     font-weight: 500;
     cursor: pointer;
+    color: #383838;
 }
 
 .avatar{
@@ -197,6 +198,7 @@ body {
     text-align: start;
     padding: 0;
     cursor: pointer;
+    color: #383838;
 }
 
 .arrow-img {
@@ -249,6 +251,7 @@ body {
     text-align: start;
     padding: 0;
     cursor: pointer;
+    color: #383838;
 }
 
 .work-layer-three {
@@ -293,6 +296,7 @@ body {
     text-align: start;
     padding: 0;
     cursor: pointer;
+    color: #383838;
 }
 
 /* Testimonials component styles */
