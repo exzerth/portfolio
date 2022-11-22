@@ -760,3 +760,92 @@ footer p {
         font-size: 1.2rem;
     }
 }
+
+@media screen and ( max-width: 390px ) {
+
+    .nav-container {
+        margin-left: .8rem;
+    }
+
+    .dark-mode {
+        margin-left: 13.7rem;
+    }
+
+    .nav-container p {
+        display: none;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro-box {
+        padding-bottom: 4.6rem;
+    }
+
+    .intro-box p {
+        margin-bottom: 2.3rem;
+    }
+
+    .intro-box h2 {
+        margin: 0;
+        font-size: 2.4rem;
+    }
+
+    .intro-box button {
+        font-size: .9rem;
+    }
+
+    .image-box {
+        background-color: #383838;
+    }
+
+    .avatar {
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    }
+    
+    .skills-container {
+        margin-top: 3.8rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .skill-box {
+        height: 13.188rem;
+        padding-left: 3rem;
+    }
+
+    .skill-box h3 {
+        font-size: 1.35rem;
+        margin-top: 0;
+    }
+
+    .work-title {
+        margin-top: 3.8rem;
+    }
+
+    .work-subtitle {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .works-container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .work-layer-one, .work-layer-three{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+
+    .works-container button {
+        text-decoration: none;
+    }
+}
