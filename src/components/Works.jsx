@@ -7,7 +7,7 @@ import ArrowForward from "@mui/icons-material/ArrowForward";
 
 const Works = () => {
   return (
-    <div className="works">
+    <div id="works" className="works">
       <h4 className="work-title">LET'S GET YOU ACQUAINTED</h4>
       <h1 className="work-subtitle">AMAZING WORKS</h1>
       <div className="works-container">
@@ -16,7 +16,7 @@ const Works = () => {
             <img src={layerOne} alt="" />
           </div>
           <div className="layer-one-text">
-            <h4>Sunshine Website</h4>
+            <h4>Estendo</h4>
             <p>
               Lorem ipsum dolor set amet, consectetur adipiscing elit. Cras
               turpis justo, consequat a arcu et, lobortis tempor ex. Sed sed
@@ -31,7 +31,7 @@ const Works = () => {
         </div>
         <div className="work-layer-two">
           <div className="layer-two-text">
-            <h4>Sunshine Website</h4>
+            <h4>Hotel Itoju</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
               turpis justo, consequat a arcu et, lobortis tempor ex. Sed sed
@@ -52,7 +52,7 @@ const Works = () => {
             <img src={layerThree} alt="" />
           </div>
           <div className="layer-three-text">
-            <h4>Sunshine Website</h4>
+            <h4>Dazzler</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
               turpis justo, consequat a arcu et, lobortis tempor ex. Sed sed

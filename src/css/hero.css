@@ -12,7 +12,7 @@
 .intro-box {
     background-color: #383838;
     color: #fff;
-    padding: 7rem 9.375rem;
+    padding: 5rem 9.375rem;
 }
 
 .intro-box h2 {
@@ -26,16 +26,18 @@
     font-weight: 400;
 }
 
-.intro-box button {
+.intro-box a {
+    display: inline-block;
     border-radius: 0.5rem;
     padding: 0.925rem;
     background-color: #E6E345;
     border: none;
     outline: none;
-    font-size: 1.123rem;
+    font-size: 1.1rem;
     font-weight: 500;
     cursor: pointer;
     color: #383838;
+    text-decoration: none;
 }
 
 .avatar{
@@ -48,7 +50,7 @@
 @media screen and ( max-width: 1034px ) {
 
     .intro-box {
-        padding: 5rem 4.5rem;
+        padding: 3.3rem 4.5rem;
     }
     
     .intro-box h2 {
@@ -60,7 +62,15 @@
 @media screen and ( max-width: 870px ) {
     
     .intro-box {
-        padding: 4rem 3.5rem;
+        padding: 2.2rem 3.5rem;
+    }
+
+    .intro-box h2 {
+        font-size: 2.5rem;
+    }
+
+    .intro-box p {
+        font-size: 1.16rem;
     }
 
     .hero {
@@ -79,12 +89,12 @@
     }
 
     .intro-box {
-        padding-top: 3.3rem;
+        padding-top: .6rem;
     }
 
     .intro-box h2 {
         margin: 0;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .image-box {
@@ -120,7 +130,7 @@
         font-size: 2.4rem;
     }
 
-    .intro-box button {
+    .intro-box a {
         font-size: .9rem;
     }
 

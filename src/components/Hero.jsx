@@ -4,16 +4,16 @@ import avatarImg from "../images/avatar.jpeg";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id="about" className="hero">
       <div className="hero-container">
         <div className="intro-box">
           <h2>FRONTEND DEVELOPER</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras turpis
-            justo, consequat a arcu et, lobortis tempor ex. Sed sed scelerisque
-            orci.
+            Hi, My name is Osinaya Oluwadamilare. I'm a Frontend Web Developer from Lagos, Nigeria. 
+            I have a commitment to making pixel perfects web apps with React, The most popular Javascript Library.
+            I'd love to work with you! 🙂
           </p>
-          <button>Download CV</button>
+          <a href="https://drive.google.com/file/d/1SfPID_OIMU8PoWPnOtNy1O9DBFiRSps8/view?usp=sharing" target="blank">Download CV</a>
         </div>
         <div className="image-box">
           <img className="avatar" src={avatarImg} alt="avatar_image" />

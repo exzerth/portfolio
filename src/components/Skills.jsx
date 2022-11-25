@@ -7,7 +7,7 @@ import solImg from "../images/solidity.png";
 
 const Skills = () => {
     return (
-        <div className="skills">
+        <div id="skills" className="skills">
             <div className="skills-container">
                 <div className="skill-box">
                     <h3><img src={jsImg} alt="" /> Javascript</h3>

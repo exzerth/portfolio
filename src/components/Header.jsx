@@ -37,7 +37,7 @@ const Header = () => {
       <div className="nav-container">
         <a href="/" className="logo">3ohh9</a>
         <a href="#about" className="nav-links">About</a>
-        <a href="#services" className="nav-links">Services</a>
+        <a href="#skills" className="nav-links">Skills</a>
         <a href="#works" className="nav-links">Works</a>
         <a href="#contact" className="nav-links">Contact</a>
         <DarkMode className="dark-mode" onClick={toggleMode} />
@@ -57,7 +57,7 @@ const Header = () => {
                     }} onClick={toggleDropDown}/>}
           <div className="dropdown-items">
             <a href="#about">About</a>
-            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
             <a href="#works">Works</a>
             <a href="#contact">Contact</a>
           </div>
