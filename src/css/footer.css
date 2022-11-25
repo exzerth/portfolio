@@ -1,0 +1,39 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.footer-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-top: 2.5rem;
+}
+
+.footer-subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.socials-box img {
+    width: 75%;
+    cursor: pointer;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}

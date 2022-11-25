@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/skills.css"
 import jsImg from "../images/js.png";
 import reactImg from "../images/react.png";
 import nodeImg from "../images/nodejs.png";

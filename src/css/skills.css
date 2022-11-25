@@ -1,0 +1,128 @@
+.skills {
+    width: 100%;
+}
+
+.skills-container {
+    margin-top: 5.25rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 17.188rem;
+    height: 13.188rem;
+    background: #e6e34566;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.17);
+    border-radius: 8px;
+    padding-left: 2rem;
+}
+
+.skill-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.skill-box img {
+    width: 17%;
+    vertical-align: middle;
+    padding-right: .5rem;
+}
+
+.skill-box p {
+    font-size: 1rem;
+}
+
+@media screen and ( max-width: 1034px ) {
+    
+    .skills-container {
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .skill-box {
+        padding-left: 1.15rem;
+    }
+
+    .skill-box img {
+        padding-right: 0.15rem;
+    }
+
+}
+
+@media screen and ( max-width: 870px ) {
+
+    .skills-container {
+        margin-top: 3.5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .skill-box {
+        padding-left: 1.2rem;
+    }
+
+    .skill-box h3 {
+        font-size: 1.1rem;
+    }
+
+    .skill-box img {
+        padding-right: .1rem;
+    }
+    
+}
+
+@media screen and ( max-width: 500px ) {
+    
+    .skills-container {
+        margin-top: 4rem;
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    .skill-box {
+        height: 13.188rem;
+        padding-left: 3rem;
+    }
+
+    .skill-box h3 {
+        font-size: 1.35rem;
+        margin-top: 0;
+    }
+
+}
+
+@media screen and ( max-width: 390px ) {
+    
+    .skills-container {
+        margin-top: 3.8rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .skill-box {
+        height: 13.188rem;
+        padding-left: 3rem;
+    }
+
+    .skill-box h3 {
+        font-size: 1.35rem;
+        margin-top: 0;
+    }
+
+}

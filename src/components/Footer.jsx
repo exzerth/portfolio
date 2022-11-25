@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/footer.css";
 import twitterImg from "../images/twitter.png";
 import githubImg from "../images/github.png";
 import linkedInImg from "../images/linkedin.png";

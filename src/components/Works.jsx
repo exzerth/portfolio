@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/works.css";
 import layerOne from "../images/layerone.PNG";
 import layerTwo from "../images/layertwo.PNG";
 import layerThree from "../images/layerthree.PNG";

@@ -1,5 +1,4 @@
 import React from "react";
-import "./main.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
