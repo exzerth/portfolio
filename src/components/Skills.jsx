@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/skills.css"
 import jsImg from "../images/js.png";
 import reactImg from "../images/react.png";
 import nodeImg from "../images/nodejs.png";
@@ -7,23 +6,35 @@ import solImg from "../images/solidity.png";
 
 const Skills = () => {
     return (
-        <div id="skills" className="skills">
-            <div className="skills-container">
-                <div className="skill-box">
-                    <h3><img src={jsImg} alt="" /> Javascript</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div className="container mx-auto px-[15px] mb-[40px]">
+        <div className="relative mb-[30px]">
+            <div className="text-[32px] text-gray20 font-semibold">My Skills</div>
+            <span className="absolute w-[20%] border-[3px] border-[#E6E345]"></span>
+        </div>
+            <div className="grid grid-cols-2 justify-center items-center gap-2">
+                <div className="bg-[#e6e34566] shadow-skill rounded-lg py-[8px] px-[16px]">
+                    <div className="flex justify-center">
+                        <img className="w-[33px] pr-[.2rem] align-middle" src={jsImg} alt="" />
+                        <div className="font-medium text-[1.3rem] align-middle mt-[6px]">Javascript</div>
+                    </div>
                 </div>
-                <div className="skill-box">
-                    <h3><img src={reactImg} alt="" /> React</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div className="bg-[#e6e34566] shadow-skill rounded-lg py-[8px] px-[16px]">
+                    <div className="flex justify-center">
+                        <img className="w-[33px] pr-[.2rem] align-middle" src={reactImg} alt="" />
+                        <div className="font-medium text-[1.3rem] align-middle mt-[6px]">React</div>
+                    </div>
                 </div>
-                <div className="skill-box">
-                    <h3><img src={solImg} alt="" /> Solidity</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div className="bg-[#e6e34566] shadow-skill rounded-lg py-[8px] px-[16px]">
+                    <div className="flex justify-center">
+                        <img className="w-[33px] pr-[.2rem] align-middle" src={solImg} alt="" />
+                        <div className="font-medium text-[1.3rem] align-middle mt-[6px]">Solidity</div>
+                    </div>
                 </div>
-                <div className="skill-box">
-                    <h3><img src={nodeImg} alt="" /> NodeJS</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div className="bg-[#e6e34566] shadow-skill rounded-lg py-[8px] px-[16px]">
+                    <div className="flex justify-center">
+                        <img className="w-[33px] pr-[.2rem] align-middle" src={nodeImg} alt="" />
+                        <div className="font-medium text-[1.3rem] align-middle mt-[6px]">NodeJS</div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
 .nav {
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: #fff;
+    background-color: #202020;
     z-index: 5;
     box-shadow: 4px 0 5px rgba(0, 0, 0, 0.5);
 }
@@ -21,9 +21,9 @@
 }
 
 .logo {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Black Ops One', cursive;
     font-weight: 700;
-    color: #333;
+    color: #fff;
     font-size: 2.2rem;
     margin: 1rem 0;
     cursor: pointer;
@@ -34,7 +34,7 @@
     font-size: 1.122rem;
     cursor: pointer;
     text-decoration: none;
-    color: #333;
+    color: #fff;
     transition: 0.3s ease-in-out;
 }
 
@@ -45,6 +45,7 @@
 .dark-mode {
     margin-left: auto;
     cursor: pointer;
+    color: #fff;
 }
 
 @media screen and ( max-width: 1034px ) {
@@ -67,7 +68,7 @@
         justify-content: space-between;
         align-items: center;
         height: 4rem;
-        background-color: #fff;
+        background-color: #202020;
     }
 
     .logo {

@@ -35,7 +35,7 @@ const Header = () => {
   return (
     <nav className="nav">
       <div className="nav-container">
-        <a href="/" className="logo">3ohh9</a>
+        <a href="/" className="logo">O.O</a>
         <a href="#about" className="nav-links">About</a>
         <a href="#skills" className="nav-links">Skills</a>
         <a href="#works" className="nav-links">Works</a>
@@ -43,17 +43,19 @@ const Header = () => {
         <DarkMode className="dark-mode" onClick={toggleMode} />
       </div>
       <div className="mobile-nav-container">
-        <h1 className="logo">3ohh9</h1>
+        <h1 className="logo">O.O</h1>
         <DarkMode className="dark-mode" onClick={toggleMode} />
         <div className="dropdown" onClick={toggleMenu}>
           {(menu === true) ? <MenuOpen sx={{ 
                       display: 'block',
                       marginLeft: 'auto',
-                      fontSize: '2.5rem'
+                      fontSize: '2.5rem',
+                      color: '#ffffff'
                     }} onClick={toggleDropDown}/> : <Menu sx={{ 
                       display: 'block',
                       marginLeft: 'auto',
-                      fontSize: '2.5rem'
+                      fontSize: '2.5rem',
+                      color: '#ffffff'
                     }} onClick={toggleDropDown}/>}
           <div className="dropdown-items">
             <a href="#about">About</a>

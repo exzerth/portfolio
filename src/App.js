@@ -5,18 +5,18 @@ import Skills from "./components/Skills";
 import Works from "./components/Works";
 import Testimonial from "./components/Testimonials";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Header />
-        <Hero />
-        <Skills />
-        <Works />
-        <Testimonial />
-        <Footer />
-      </header>
+      <Header />
+      <Hero />
+      <About />
+      <Skills />
+      <Works />
+      <Testimonial />
+      <Footer />
     </div>
   );
 }
