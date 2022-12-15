@@ -1,5 +1,5 @@
 import React from "react";
-import estendoImage from '../images/layerOne.png'
+import estendoImage from '../images/est-img.png'
 import printRunnerImage from '../images/pr-hero.png'
 import WorkCards from "./WorkCards";
 
