@@ -1,22 +1,26 @@
 import React from 'react'
-import layerImage from '../images/hero.png'
 
-const WorkCards = () => {
+const WorkCards = (props) => {
+    const cardImage = props.cardImage
+    const cardTitle = props.cardTitle
+    const cardDesc = props.cardDesc
+    const cardTech = props.cardTech
+    const cardPreview = props.cardPreview
+    
   return (
     <>
-        <div className="work-layer">
+        <div className="flex justify-evenly border rounded-b-[5px] border-transparent border-none shadow-works h-[100%]">
             <div className="overlay">
-                <div className="layer-content">
-                    <img className='layer-img' src={layerImage} alt="" />
-                    <div className="layer-text">
-                        <h4>Estendo</h4>
-                        <p>
-                            A generator retail company for the most popular generator brands.
+                <div className="self-center text-gray20 bg-slate-50">
+                    <img className='w-[100%] rounded-t-[5px]' src={cardImage} alt="" />
+                    <div className="px-[3rem] pt-[1rem] pb-[1.5rem]">
+                        <div className='text-[28px] font-semibold'>{cardTitle}</div>
+                        <p className='text-[18px] font-light pb-[10px]'>
+                            {cardDesc}
                         </p>
-                        <p>React, Bootstrap</p>
-                        <div className="links">
-                            <a style={{backgroundColor: "purple"}} href="https://estendo.netlify.app" target="blank">Live</a>
-                            <a style={{backgroundColor: "green"}} href="https://github.com/exzerth/Estendo" target="blank">Code</a>
+                        <p className='pb-[7px] text-[15px]'>{cardTech}</p>
+                        <div className="text-[1.1rem] font-medium flex justify-between items-start w-[120px] text-slate-50">
+                            {cardPreview}
                         </div>
                     </div>
                 </div>
