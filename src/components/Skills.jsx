@@ -10,7 +10,7 @@ const Skills = () => {
     return (
         <div className="container mx-auto px-[15px] mb-[40px]">
         <div className="relative mb-[30px]">
-            <div className="text-[32px] text-gray20 font-semibold">My Skills</div>
+            <div className="text-[32px] text-gray20 font-semibold">Skills</div>
             <span className="absolute w-[20%] border-[3px] border-[#E6E345]"></span>
         </div>
             <div className="grid grid-cols-2 md:grid-cols-3 justify-center items-center gap-2">
