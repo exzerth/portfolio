@@ -11,7 +11,7 @@ const WorkCards = (props) => {
     <>
         <div className="flex justify-evenly border rounded-[5px] border-transparent shadow-works h-[100%]">
             <div className="self-center rounded-[5px] text-gray20 bg-slate-50">
-                <img className='w-[100%] rounded-t-[5px]' src={cardImage} alt="" />
+                <img className='w-[100%] md:w-[607px] lg:h-[363px] rounded-t-[5px]'  src={cardImage} alt="" />
                 <div className="px-[3rem] pt-[1rem] pb-[1.5rem]">
                     <div className='text-[28px] font-semibold'>{cardTitle}</div>
                     <p className='text-[18px] font-light pb-[10px]'>

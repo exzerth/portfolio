@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      headings: ["Black Ops One", "cursive"],
+    },
     extend: {
       boxShadow: {
         skill: "0px 4px 4px rgba(0,0,0,0.17)",
@@ -10,6 +13,7 @@ module.exports = {
       },
       colors: {
         gray20: "#333333",
+        owhite: "#F5F5F5",
       },
     },
   },

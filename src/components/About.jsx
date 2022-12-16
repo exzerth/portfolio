@@ -3,7 +3,7 @@ const About = () => {
     <>
     <div className="container mx-auto px-[15px] mt-[50px] mb-[40px]">
         <div className="relative mb-[30px]">
-            <div className="text-[32px] text-gray20 font-semibold">About Me</div>
+            <div className="text-[32px] text-gray20 font-semibold">About</div>
             <span className="absolute w-[20%] border-[3px] border-[#E6E345]"></span>
         </div>
         <div className="leading-relaxed">

@@ -24,7 +24,6 @@ const Footer = () => {
                     <img src={mailImg} alt="" />
                 </div>
             </div>
-            <p>Made with ❤️ by 3ohh9</p>
         </footer>
     )
 }
