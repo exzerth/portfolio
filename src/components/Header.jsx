@@ -34,7 +34,7 @@ const Header = () => {
 
   return (
     <nav className="nav">
-      <div className="nav-container">
+      <div className="container mx-auto px-[15px] lg:px-[24px] nav-container">
         <a href="/" className="logo">O.O</a>
         <a href="#about" className="nav-links">About</a>
         <a href="#skills" className="nav-links">Skills</a>

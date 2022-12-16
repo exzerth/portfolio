@@ -28,13 +28,13 @@ const zuriLinks = <>
                     </>
 
   return (
-    <div className="container mx-auto px-[15px] mb-[40px]">
+    <div className="container mx-auto px-[15px] md:px-[24px] mb-[40px] md:mb-[50px]">
       <div className="relative mb-[15px]">
           <div className="text-[32px] text-gray20 font-semibold">Works</div>
           <span className="absolute w-[20%] border-[3px] border-[#E6E345]"></span>
       </div>
       <div className="font-semibold text-[16px] opacity-[.6] mb-[30px]">LET'S GET YOU ACQUAINTED</div>
-      <div className="grid items-center grid-rows-1 md:grid-cols-2 gap-8">
+      <div className="grid items-center grid-rows-1 md:grid-cols-2 gap-6 lg:gap-8">
         <WorkCards
             cardImage = {printRunnerImage}
             cardTitle = "PrintRunner"
