@@ -1,4 +1,3 @@
-import React from "react";
 import estendoImage from '../images/est-img.png'
 import printRunnerImage from '../images/pr-hero.png'
 import dazzlerImage from '../images/dazzler-hero.png'
@@ -17,12 +16,12 @@ const Works = () => {
                         <a className='shadow-links py-[.4rem] px-[.9rem] rounded-[5px] mr-[.8rem] bg-[green]' href="https://github.com/exzerth/Estendo" target="blank">Code</a>
                       </>
 
-const dazzlerLinks = <>
+  const dazzlerLinks = <>
                       <a className='shadow-links py-[.4rem] px-[.9rem] rounded-[5px] mr-[.8rem] bg-[purple]' href="https://dazzler.netlify.app" target="blank">Live</a> 
                       <a className='shadow-links py-[.4rem] px-[.9rem] rounded-[5px] mr-[.8rem] bg-[green]' href="https://github.com/exzerth/dazzler" target="blank">Code</a>
                     </>
 
-const zuriLinks = <>
+  const zuriLinks = <>
                       <a className='shadow-links py-[.4rem] px-[.9rem] rounded-[5px] mr-[.8rem] bg-[purple]' href="https://zuri-education.netlify.app/" target="blank">Live</a> 
                       <a className='shadow-links py-[.4rem] px-[.9rem] rounded-[5px] mr-[.8rem] bg-[green]' href="https://github.com/exzerth/Team-New-Justice-League_Education-Template" target="blank">Code</a>
                     </>
@@ -30,7 +29,7 @@ const zuriLinks = <>
   return (
     <div className="container mx-auto px-[15px] md:px-[24px] mb-[40px] md:mb-[50px]">
       <div className="relative mb-[15px]">
-          <div className="text-[32px] text-gray20 font-semibold">Works</div>
+          <div className="text-[32px] text-gray20 font-semibold">Projects</div>
           <span className="absolute w-[20%] border-[3px] border-[#E6E345]"></span>
       </div>
       <div className="font-semibold text-[16px] opacity-[.6] mb-[30px]">LET'S GET YOU ACQUAINTED</div>

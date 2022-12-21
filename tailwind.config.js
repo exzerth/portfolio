@@ -14,6 +14,12 @@ module.exports = {
       colors: {
         gray20: "#333333",
         owhite: "#F5F5F5",
+        backg: "#6C6C6C",
+        bgblack: "rgba(0, 0, 0, 0.5)",
+        bgskills: "rgba(229, 227, 68, 0.8)",
+      },
+      backgroundImage: {
+        bgfoundation: "url('/src/images/bg-foundation.svg')",
       },
     },
   },

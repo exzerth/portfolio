@@ -38,7 +38,7 @@ const Header = () => {
         <a href="/" className="logo">O.O</a>
         <a href="#about" className="nav-links">About</a>
         <a href="#skills" className="nav-links">Skills</a>
-        <a href="#works" className="nav-links">Works</a>
+        <a href="#works" className="nav-links">Projects</a>
         <a href="#contact" className="nav-links">Contact</a>
         <DarkMode className="dark-mode" onClick={toggleMode} />
       </div>

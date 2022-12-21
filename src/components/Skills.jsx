@@ -1,54 +1,29 @@
-import React from "react";
-import htmlImg from "../images/html.png"
-import cssImg from "../images/css3.png"
-import jsImg from "../images/js.png";
-import reactImg from "../images/react.png";
-import nodeImg from "../images/nodejs.png";
-import solImg from "../images/solidity.png";
+import { TbBrandTailwind, TbBrandNextjs } from 'react-icons/tb'
+import { DiHtml5, DiCss3, DiMysql } from 'react-icons/di'
+import { SiTypescript, SiJavascript, SiReact, SiSolidity, SiNodedotjs, SiMongodb, SiAmazonaws } from 'react-icons/si'
+import SkillTag from "./SkillTag";
 
 const Skills = () => {
     return (
-        <div className="container mx-auto px-[15px] md:px-[24px] mb-[40px] md:mb-[50px]">
-        <div className="relative mb-[30px]">
-            <div className="text-[32px] lg:text-[38px] text-gray20 font-semibold">Skills</div>
-            <span className="absolute w-[20%] border-[3px] border-[#E6E345]"></span>
-        </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 justify-center items-center gap-2">
-                <div className="bg-[#e6e34566] shadow-skill rounded-lg py-[8px] px-[16px]">
-                    <div className="flex justify-start">
-                        <img className="w-[33px] pr-[.2rem] align-middle" src={htmlImg} alt="" />
-                        <div className="font-medium text-[1.3rem] align-middle mt-[6px]">HTML</div>
-                    </div>
+        <div className="cov bg-bgfoundation bg-bgblack bg-blend-overlay text-owhite">
+            <div className="container mx-auto px-[15px] md:px-[24px] pt-[40px] pb-[70px] mb-[40px] md:mb-[50px]">
+                <div className="relative mb-[30px]">
+                    <div className="text-[32px] lg:text-[38px] font-semibold">Skills</div>
+                    <span className="absolute w-[20%] border-[3px] border-[#E6E345]"></span>
                 </div>
-                <div className="bg-[#e6e34566] shadow-skill rounded-lg py-[8px] px-[16px]">
-                    <div className="flex justify-start">
-                        <img className="w-[33px] pr-[.2rem] align-middle" src={cssImg} alt="" />
-                        <div className="font-medium text-[1.3rem] align-middle mt-[6px]">CSS</div>
-                    </div>
-                </div>
-                <div className="bg-[#e6e34566] shadow-skill rounded-lg py-[8px] px-[16px]">
-                    <div className="flex justify-start">
-                        <img className="w-[33px] pr-[.2rem] align-middle" src={jsImg} alt="" />
-                        <div className="font-medium text-[1.3rem] align-middle mt-[6px]">Javascript</div>
-                    </div>
-                </div>
-                <div className="bg-[#e6e34566] shadow-skill rounded-lg py-[8px] px-[16px]">
-                    <div className="flex justify-start">
-                        <img className="w-[33px] pr-[.2rem] align-middle" src={reactImg} alt="" />
-                        <div className="font-medium text-[1.3rem] align-middle mt-[6px]">React</div>
-                    </div>
-                </div>
-                <div className="bg-[#e6e34566] shadow-skill rounded-lg py-[8px] px-[16px]">
-                    <div className="flex justify-start">
-                        <img className="w-[33px] pr-[.2rem] align-middle" src={solImg} alt="" />
-                        <div className="font-medium text-[1.3rem] align-middle mt-[6px]">Solidity</div>
-                    </div>
-                </div>
-                <div className="bg-[#e6e34566] shadow-skill rounded-lg py-[8px] px-[16px]">
-                    <div className="flex justify-start">
-                        <img className="w-[33px] pr-[.2rem] align-middle" src={nodeImg} alt="" />
-                        <div className="font-medium text-[1.3rem] align-middle mt-[6px]">NodeJS</div>
-                    </div>
+                <div className="grid grid-cols-2 md:grid-cols-3 justify-center items-center gap-4">
+                    <SkillTag skillIcon={<DiHtml5 className="text-[250%] pr-[.5rem] align-middle" />} skillName="HTML"/>
+                    <SkillTag skillIcon={<DiCss3 className="text-[250%] pr-[.5rem] align-middle" />} skillName="CSS"/>
+                    <SkillTag skillIcon={<SiJavascript className="text-[250%] pr-[.5rem] align-middle" />} skillName="Javascript"/>
+                    <SkillTag skillIcon={<SiReact className="text-[250%] pr-[.5rem] align-middle" />} skillName="React"/>
+                    <SkillTag skillIcon={<SiSolidity className="text-[250%] pr-[.5rem] align-middle" />} skillName="Solidity"/>
+                    <SkillTag skillIcon={<SiNodedotjs className="text-[250%] pr-[.5rem] align-middle" />} skillName="NodeJS"/>
+                    <SkillTag skillIcon={<SiTypescript className="text-[250%] pr-[.5rem] align-middle" />} skillName="Typescript"/>
+                    <SkillTag skillIcon={<TbBrandNextjs className="text-[250%] pr-[.5rem] align-middle" />} skillName="Next.js"/>
+                    <SkillTag skillIcon={<TbBrandTailwind className="text-[250%] pr-[.5rem] align-middle" />} skillName="Tailwind"/>
+                    <SkillTag skillIcon={<SiMongodb className="text-[250%] pr-[.5rem] align-middle" />} skillName="MongoDB"/>
+                    <SkillTag skillIcon={<DiMysql className="text-[250%] pr-[.5rem] align-middle" />} skillName="MySql"/>
+                    <SkillTag skillIcon={<SiAmazonaws className="text-[250%] pr-[.5rem] align-middle" />} skillName="AWS"/>
                 </div>
             </div>
         </div>
