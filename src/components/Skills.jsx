@@ -5,7 +5,7 @@ import SkillTag from "./SkillTag";
 
 const Skills = () => {
     return (
-        <div className="cov bg-bgfoundation bg-bgblack bg-blend-overlay text-owhite">
+        <div id='skills' className="cov bg-bgfoundation bg-bgblack bg-blend-overlay text-owhite">
             <div className="container mx-auto px-[15px] md:px-[24px] pt-[40px] pb-[70px] mb-[40px] md:mb-[50px]">
                 <div className="relative mb-[30px]">
                     <div className="text-[32px] lg:text-[38px] font-semibold">Skills</div>

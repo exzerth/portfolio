@@ -38,9 +38,9 @@ const Header = () => {
         <a href="/" className="logo">O.O</a>
         <a href="#about" className="nav-links">About</a>
         <a href="#skills" className="nav-links">Skills</a>
-        <a href="#works" className="nav-links">Projects</a>
+        <a href="#projects" className="nav-links">Projects</a>
         <a href="#contact" className="nav-links">Contact</a>
-        <DarkMode className="dark-mode" onClick={toggleMode} />
+        <DarkMode className="dark-mode hidden" /* onClick={toggleMode} */ />
       </div>
       <div className="mobile-nav-container">
         <h1 className="logo">O.O</h1>
@@ -57,10 +57,10 @@ const Header = () => {
                       fontSize: '2.5rem',
                       color: '#ffffff'
                     }} onClick={toggleDropDown}/>}
-          <div className="dropdown-items">
+          <div className="dropdown-items" onClick={toggleDropDown}>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
-            <a href="#works">Works</a>
+            <a href="#projects">Works</a>
             <a href="#contact">Contact</a>
           </div>
         </div>
