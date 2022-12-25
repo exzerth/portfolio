@@ -8,12 +8,12 @@ const Hero = () => {
     <div className="mt-[2rem] text-owhite">
       <div className="hero-container flex justify-center items-end md:items-center">
         <div className="container mx-auto pb-[1.5rem]">
-          <div className="md:flex md:justify-between px-[1.5rem] md:px-[0] pt-[.6rem] pb-[1rem] lg:pb-0 text-center container mx-auto">
+          <div className="md:flex md:justify-between md:px-[0] pt-[.6rem] pb-[1rem] lg:pb-0 text-center container mx-auto">
             <div className="md:pl-[24px] md:text-start"><span className="text-[20px] lg:text-[24px]">Hi!, I'm<br />
-            <span className="text-[1.81rem] md:text-[2.3rem] font-semibold font-headings leading-[2.4rem] md:leading-[2.9rem] text-center"><span className="lg:block lg:text-start lg:after:content['\a'] lg:after:whitespace-pre">OSINAYA</span> OLUWADAMILARE</span>,<br />
+            <span className="text-[2.1rem] md:text-[2.3rem] font-semibold font-headings leading-[2.4rem] md:leading-[2.9rem] text-center"><span className="lg:block lg:text-start lg:after:content['\a'] lg:after:whitespace-pre">OSINAYA</span> OLUWADAMILARE</span>,<br />
             <span className="hidden md:block">A Web Developer.</span></span>
             </div>
-            <p className="md:pr-[24px] md:text-end font-normal text-[1.25rem] md:w-[50%] lg:text-[24px] lg:pl-[120px]">
+            <p className="md:pr-[24px] px-[1.5rem] md:text-end font-normal text-[1.25rem] md:w-[50%] lg:text-[24px] lg:pl-[120px]">
               <span className="md:hidden">I'm committed to making pixel perfect web apps. <br />I'd like to work with you.🙂</span>
               <span className="hidden md:block">Welcome to my portfolio, have a loook at a selection of my projects and learn more about my proficency as a web developer.🙂</span>
             </p>
