@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="container mx-auto pb-[1.5rem]">
           <div className="md:flex md:justify-between px-[1.5rem] md:px-[0] pt-[.6rem] pb-[1rem] lg:pb-0 text-center container mx-auto">
             <div className="md:pl-[24px] md:text-start"><span className="text-[20px] lg:text-[24px]">Hi!, I'm<br />
-            <span className="text-[2.3rem] font-semibold font-headings leading-[2.9rem] text-center"><span className="lg:block lg:text-start lg:after:content['\a'] lg:after:whitespace-pre">OSINAYA</span> OLUWADAMILARE</span>,<br />
+            <span className="text-[1.81rem] md:text-[2.3rem] font-semibold font-headings leading-[2.4rem] md:leading-[2.9rem] text-center"><span className="lg:block lg:text-start lg:after:content['\a'] lg:after:whitespace-pre">OSINAYA</span> OLUWADAMILARE</span>,<br />
             <span className="hidden md:block">A Web Developer.</span></span>
             </div>
             <p className="md:pr-[24px] md:text-end font-normal text-[1.25rem] md:w-[50%] lg:text-[24px] lg:pl-[120px]">
