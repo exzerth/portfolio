@@ -7,14 +7,15 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_yraxwfw', 'portfoliov1', form.current, 'GrGaHov2A_58h4nlz')
+    emailjs.sendForm('service_yraxwfw', 'portfoliov1', form.current, process.env.REACT_APP_EMAIL_API)
       .then((result) => {
           console.log(result.text);
+          form.current.reset();
+
       }, (error) => {
           console.log(error.text);
       });
   };
-
 
   return (
     <form ref={form} action="" method="POST" onSubmit={handleSubmit} className="">
@@ -28,5 +29,3 @@ const Form = () => {
 }
 
 export default Form
-
-
